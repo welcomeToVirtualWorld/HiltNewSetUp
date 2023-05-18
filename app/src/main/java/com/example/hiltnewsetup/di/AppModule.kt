@@ -65,7 +65,6 @@ class AppModule {
     }
 
 
-
     @Singleton
     @Provides
     fun dataStore(application: Application): DataStore<Preferences> =
