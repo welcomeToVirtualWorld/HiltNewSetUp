@@ -64,6 +64,7 @@ class AppModule {
         return GsonBuilder().create()
     }
 
+
     @Singleton
     @Provides
     fun dataStore(application: Application): DataStore<Preferences> =
