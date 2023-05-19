@@ -54,6 +54,10 @@ dependencies {
     implementation 'androidx.fragment:fragment-ktx:1.5.7'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0'
 
+    def appCenterSdkVersion = '4.4.5'
+    implementation "com.microsoft.appcenter:appcenter-analytics:${appCenterSdkVersion}"
+    implementation "com.microsoft.appcenter:appcenter-crashes:${appCenterSdkVersion}"
+
     def retrofit = "2.9.0"
     implementation "com.squareup.retrofit2:retrofit:$retrofit"
     implementation "com.squareup.retrofit2:converter-gson:$retrofit"
